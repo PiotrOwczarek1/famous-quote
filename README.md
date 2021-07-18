@@ -1,7 +1,7 @@
 # famous-quote
 **Quotes of famous persons**
 
-To start the application run following commands starting in the root directory 'famous-quote':
+To start the application run following commands starting in the root directory 'famous-quote'. Under Linux you need permission to execute file 'mvnw'.
 
 ```
 mvnw clean install
@@ -23,7 +23,7 @@ java -jar -Dspring.datasource.url=jdbc:h2:file:./famous-quote-db famous-quote-1.
 GET   http://localhost:8080/quotes
 ```
 
-- Save a new quote by sending Body in JSON
+- Save a new quote by sending Body in JSON with at least empty brackets {}
 
 ```
 POST  http://localhost:8080/quotes
