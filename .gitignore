@@ -1,3 +1,5 @@
+!.mvn/wrapper/maven-wrapper.jar
+
 # Compiled class file
 *.class
 
@@ -25,3 +27,4 @@ build/
 .project
 .settings
 .springBeans
+.metadata
